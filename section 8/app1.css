@@ -1,0 +1,22 @@
+h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: block;
+}
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    padding: 3px;
+    display: block;
+}
+
+div {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 32%;
+    height: 200px;
+    /* display: inline; */
+    display: inline-block;
+    margin: 0;
+}

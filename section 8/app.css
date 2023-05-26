@@ -1,0 +1,44 @@
+ body {
+     margin: 0;
+ }
+
+ div {
+     width: 600px;
+     height: 100px;
+     background-color: aquamarine;
+
+ }
+
+ h1 {
+     background-color: pink;
+     width: 100px;
+     margin: 0;
+ }
+
+ #one {
+     background-color: cadetblue;
+     border-width: 5px;
+     border-color: black;
+     border-style: solid;
+     box-sizing: border-box;
+     margin-left: 50px;
+     margin-right: 100px;
+ }
+
+ #two {
+     background-color: cornflowerblue;
+     border-color: #ffdd22;
+     border-width: 3px;
+     border-style: dashed;
+     margin: 20px;
+ }
+
+ #three {
+     background-color: cyan;
+     border: 4px dashed green;
+     border-radius: 30px;
+ }
+
+ button {
+     padding: 0;
+ }
