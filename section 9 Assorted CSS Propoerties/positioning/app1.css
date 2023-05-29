@@ -1,0 +1,35 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: slateblue;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+}
+
+#static #middle {
+    background-color: aqua;
+    position: static;
+    top: 20px;
+}
+
+#relative #middle {
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+    left: -50px;
+}
+
+/* #absolute #middle {
+    background-color: aqua;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+} */
+
+#fixed #middle {
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 200px;
+}
