@@ -4,19 +4,51 @@ h1 {
 
 #container {
     background-color: #003049;
-    width: 90%;
-    height: 500px;
+    width: 100%;
+    height: 200px;
     margin: 0 auto;
-    border: 5px solid #003049;
+    border: 1px solid #003049;
     display: flex;
+    /* main axis and cross axis */
     flex-direction: row;
+    /* row-reverse and column-reverse lets you reverse direction */
     justify-content: center;
-    align-items: flex-end;
-    flex-wrap: wrap-reverse;
+    /* justify-content distributes items on main axis */
+    flex-wrap: wrap;
+    /* align-items distributes items on the cross axis*/
+    /* align-items: flex-end; */
+    /* align-content: space-between; */
 }
 
 #container div {
-    width: 200px;
+    width: 50px;
     height: 200px;
     text-align: center;
+    flex-basis: 200px;
+}
+
+div:nth-of-type(1) {
+    flex-grow: 1;
+}
+
+div:nth-of-type(5) {
+    flex-grow: 2;
+}
+
+main {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+}
+
+main .sidebar {
+    background-color: purple;
+    flex: 1 300px;
+}
+
+main .maincontent {
+    background-color: green;
+    flex: 2 600px;
 }
